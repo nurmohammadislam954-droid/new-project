@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>English janala</title>
+  <!-- favicon -->
+   <link rel="shortcut icon" href="./english-janala-resources/assets/logo.png">
+
+   <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" >
+
+    <!-- DaisyUI+Tailwind -->
+    <link
+    href="https://cdn.jsdelivr.net/npm/daisyui@5"
+    rel="stylesheet"
+    type="text/css"
+/>
+      
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+     <!-- Google font -->
+     
+
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Hind+Siliguri:wght@300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<!-- custom css -->
+ <link rel="stylesheet" href="style.css">
+
+
+
+</head>
+<body>
+         <!-- header   -->
+          <header class="border-b bg-white">
+            <div class="navbar max-w-7xl mx-auto px-4">
+              <!-- logo -->
+               <div class="navbar-start">
+
+                <!-- Mobile Menu -->
+                 <div class="dropdown">
+                  <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                    <i class="fa-solid fa-bars text-xl"></i>
+                  </div>
+                  <ul tabindex="-1" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-10 mt-3 w-52 p-2 shadow">
+                    <li>
+                      <a href="#">
+                        <i class="fa-solid fa-question"></i>
+                        FAQ
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="fa-solid fa-book-open-reader"></i>
+                        Learn
+                      </a>
+                    </li>
+                   <li>
+                      <a href="#">
+                        <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                        Logout
+                      </a>
+                    </li>
+                  </ul>
+                 </div>
+                 <!-- logo -->
+                  <a href="#" class="flex items-center gap-1">
+                    <span class="text-lg font-bold">English</span>
+                    <img src="english-janala-resources/assets/logo.png" alt="" class="w-7">
+                    <span class="font-bangla text-lg font-semibold">জানালা</span>
+                    
+                  </a>
+               </div>
+                <!-- Desktop navigation -->
+             <div class="navbar-end hidden lg:flex">
+              <ul class="menu menu-horizontal gap-3">
+               
+                   
+                      <li >
+                        <a href="#" class="btn btn-outline btn-primary">
+                          <i class="fa-solid fa-question"></i>
+                          FAQ
+                        </a>
+                      </li>
+                       <li >
+                        <a href="#" class="btn btn-outline btn-primary">
+                           <i class="fa-solid fa-book-open-reader"></i>
+                        Learn
+                          
+                          
+                        </a>
+                      </li>
+                       <li >
+                        <a href="#" class="btn btn-outline btn-primary">
+                           <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                        Logout
+                          
+                          
+                        </a>
+                      </li>
+                    </ul>
+                  
+                
+              
+             </div>
+           
+            </div>
+            
+          </header>
+
+          <!-- words details modal -->
+           <dialog id="word_modal" class="modal modal-bottom sm:modal-middle">
+            <div class="modal-box">
+            <!-- dynamic style -->
+             <div id="details-container"></div>
+             <!-- close button -->
+              <div class="modal-action">
+                <form method="dialog">
+                  <button class="btn">
+                    close
+                  </button>
+                </form>
+              </div>
+              </div>
+
+             
+           </dialog>
+
+           <!-- hero section -->
+          <section class="mx-w-7xl mx-auto px-4 py-12 flex flex-col-reverse md:flex-row gap-3 items-center">
+            <!-- hero content -->
+             <div class="flex-1 text-center md:text-left">
+              <h1 class="text-4xl md:text-5xl font-bold mb-6">
+                <span class="text-sky-400">
+                  English
+                </span>
+                is Easy!!
+
+              </h1>
+              <p class="text-bangla text-lg leading-relaxed  text-gray-600">
+                আজ থেকেই ইংরেজি শেখার যাত্রা শুরু করুন!
+
+                আমাদের সিস্টেমটি নতুন এবং মধ্যম স্তরের শিক্ষার্থীদের জন্য
+                অত্যন্ত কার্যকর। এখানে আপনি পাবেন একটি আধুনিক,
+                শ্রবণ ও কথোপকথনভিত্তিক ইংরেজি শেখার ব্যবস্থা।
+
+                তাই আর দেরি না করে আমাদের আকর্ষণীয়, আনন্দদায়ক ও
+                আধুনিক লার্নিং সিস্টেমের মাধ্যমে ইংরেজি শেখার যাত্রা
+                শুরু করুন এবং আত্মবিশ্বাসের সঙ্গে ইংরেজিতে কথা বলা শিখুন।
+              </p>
+             </div>
+
+             <!-- Hero img -->
+              <div class="flex-1 flex justify-center">
+                <img src="english-janala-resources/assets/hero-student.png" class="mx-w-md w-full">
+
+              </div>
+          </section>
+
+          <!-- Lesson's section -->
+           <section class="mx-w-7xl mx-auto px-4 py-12">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb:6">
+              <span class="text-sky-400">
+                Let's
+              </span>
+              learn vocubalary
+
+            </h2>
+            <div id="level-container" class="flex flex-wrap justify-center gap-3">
+
+            </div>
+
+            </div>
+           </section>
+           <!-- search -->
+           <section class="mx-w-2xl mx-auto px-4 py-5">
+            <input id="input-search" 
+             type="text" 
+            placeholder="search-vocubalary"
+            class="input input-bordered join-item flex-1">
+
+            <button id="btn-search" class="btn btn-primary join-item">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              search
+            </button>
+
+           </section>
+           <!-- words section -->
+            <section id="word-container" class="mx-w-7xl mx-auto my-10 px-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+              <!-- example card -->
+               <div class="bg-white rounded-2xl shadow-md hover:shadow-lg transition p-8 text-center">
+
+                <h2 class="font-bold text-2xl mb-3">
+                  Eager
+                </h2>
+                <p class="text-gray-500 mb-3">
+                  Meaning/Pronounciation
+                </p>
+                <div class="text-xl font-semibold font-bangla">
+                   আগ্রহী / উৎসুক / উদগ্রীব
+                </div>
+                <!-- cards button -->
+                 <div class="flex justify-between items-center mt-8">
+                  <button class="btn btn-circle bg-sky-50 hover:bg-sky-100 " onclick="word_modal.showModal()" aria-label="View the word details">
+                     <i class="fa-solid fa-circle-info"></i>
+                  </button>
+                  <button class="btn btn-circle bg-sky-50 hover:bg-sky-100" aria-label="Play pronounciation">
+                     <i class="fa-solid fa-volume-high"></i>
+                  </button>
+                 </div>
+                 <!-- Loading spinner -->
+                  
+                   <section id="spinner" class="flex justify-center items-center py-8 hidden">
+                    <span class="loading loading-bars loading-xl"></span>
+                   </section>
+
+                   <!-- javascript  -->
+                    <script src="script.js"></script>
+
+               </div>
+            </section>
+
+  
+</body>
+</html>
